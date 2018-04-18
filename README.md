@@ -21,6 +21,11 @@ Hardware
 Il programma si appoggia su:
 1. Scheda Arduino Uno
 2. Sensori di pressione FSR 402 dell'Interlink Electronics
+3. Tre resistenze da 10kOhm. 
+
+I tre pin analogici di Arduino vengono utilizzati per leggere la tensione Vout di un 
+partitore di tensione. La resistenza primaria è di 10kOhm, mentre il sensore FSR e'
+la resistenza secondaria variabile.
 
 Lo script di arduino si trova nella cartella "docs\arudino_app"
 
