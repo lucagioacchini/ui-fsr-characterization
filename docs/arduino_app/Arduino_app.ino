@@ -1,3 +1,13 @@
+/*
+Lo sketch ha due funzionalità principali. La prima permette
+di acquisire un dato su richiesta, la seconda permette una
+acquisizione continua di dati ogni 50ms. I trigger sono 'A'
+per la prima, 'B' per la seconda. 
+Per il setup hardware si rimanda al README. Se viene cambiato 
+il valore di resistenza è necessario aggiustare la riga 16.
+*/
+
+
 #define toggle 8
 #define analogPin1 0
 #define analogPin2 1
@@ -57,12 +67,10 @@ void loop(){
     fsr1 = acquisition(vOut1);
     Serial.print(fsr1);
     }  
-  }
-  
-  
+  } 
 }
 
-
+/************************************************************/
 float acquisition(float vOut){
   float fsr;
   if(vOut==0){
@@ -74,4 +82,3 @@ float acquisition(float vOut){
   }
   return fsr;
 }
-
