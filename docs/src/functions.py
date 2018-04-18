@@ -7,6 +7,7 @@ the Arduino communication, plot the graphics and save the files.
 2018 Luca Gioacchini
 """
 
+
 import os
 import serial
 import time
