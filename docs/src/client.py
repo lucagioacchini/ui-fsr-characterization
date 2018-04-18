@@ -6,6 +6,7 @@ import paho.mqtt.client as mqtt
 import time
 import config
 
+
 class Client():
 	def __init__(self, username, passwd, host, port):	
 		self.username = config.username
