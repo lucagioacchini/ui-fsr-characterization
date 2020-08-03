@@ -1,23 +1,17 @@
 # UI-based FSR Sensors Characterization Tool
-Il programma permette l'acquisizione dati da uno o più sensori FSR e traccia i 
-grafici delle misurazioni. Le funzionalità principali sono due: 
-1.Acquisizione dati "su richiesta" per la caratterizzazione del sensore FSR
-2.Acquisizione dati in maniera continuativa per il tracciamento della distribuzione
-  del peso sul piede durante un passo 
+The tool allows data acquisition from one or more FSR sensors providing measurement charts. It provides two main functionalities:
+1. On-demand data acquisition for FSR sensor characterization
+2. Continuous acquisition for tracking the weight distribution during gait phases
 
------------------------------
-Installazione
------------------------------
-Il programma è scritto in Python2.7 ed utilizza diversi pacchetti aggiuntivi. Questi
-possono essere installati tramite il file "requirements.txt" presente nella cartella 
-principale:
+## Setup
+Install the requirements
+```sudo pip install -r requirements.txt```
 
-(user)$ pip install -r requirements.txt
-
-
------------------------------
-Hardware
------------------------------
+## Hardware
+The tool works with:
+1. Arduino Uno board
+2. Interlink Electronics FSR 402 sensors
+3. One 10K$\Omega$ restistor per sensor
 Il programma si appoggia su:
 1. Scheda Arduino Uno
 2. Sensori di pressione FSR 402 dell'Interlink Electronics
