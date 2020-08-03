@@ -1,4 +1,4 @@
-# DatAcquisition
+# UI-based FSR Sensors Characterization Tool
 Il programma permette l'acquisizione dati da uno o più sensori FSR e traccia i 
 grafici delle misurazioni. Le funzionalità principali sono due: 
 1.Acquisizione dati "su richiesta" per la caratterizzazione del sensore FSR
