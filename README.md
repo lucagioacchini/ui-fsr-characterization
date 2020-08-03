@@ -1,3 +1,7 @@
+<p align="right">
+<img src="fig/univpm.png" alt="Logo" width="80" height="80">
+</p>
+
 # UI-based FSR Sensors Characterization Tool
 The tool allows data acquisition from one or more FSR sensors providing measurement charts. It provides two main functionalities:
 1. On-demand data acquisition for FSR sensor characterization
